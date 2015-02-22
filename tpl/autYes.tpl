@@ -1,0 +1,1 @@
+%welcome% %name% / <a href="lib/function.php?func=out">%output%</a>

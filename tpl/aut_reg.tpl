@@ -1,0 +1,1 @@
+<a href="?view=aut%lang%">%input%</a> / <a href="?view=reg%lang%">%reg%</a>

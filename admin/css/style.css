@@ -1,0 +1,301 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+img {
+	border: 0;
+}
+
+
+body{
+	width: 100%;
+	background: url(../img/fon1.png);
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+#bg{
+	background-color:#fff;
+	margin-top: 20px;
+	width: 100%;
+	/*min-width: 800px;
+	max-width: 1600px;*/
+	padding-bottom: 20px;
+}
+
+#header{
+	width: 100%;
+	/*height: 50px;*/
+	text-align: center;
+	color: #425f3d;
+	font-family: Verdana;
+	padding: 10px 0;
+}
+
+/*==============TOP MENU==================*/
+.topmenu{
+	width: 100%;
+}
+
+.topmenu ul{
+	list-style: none;
+	display: table-row;
+	background: #b7d590;
+	width: 100%;
+}
+
+.topmenu ul li{
+	border-right: 2px solid #fff;
+	display: table-cell;
+	height: 40px;
+	
+}
+
+.topmenu ul li:last-child{
+	border-right: none;
+}
+
+.topmenu ul li a{
+	display: table-cell;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	width: 1600px;
+	color: #425f3d;
+	text-decoration: none;
+	font: bold 13px Verdana;
+}
+
+.topmenu ul li a:hover, .hover_page{
+	color: #fff;
+	background: #82be55;
+}
+	.hover_page span{
+		color: #fff;
+	}
+
+
+/*.........frontpage_admin.............*/
+.frontpage_admin{
+	text-align: center;
+	color: #82807e;
+	font-family: Verdana;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background: #eaeddb;
+	width: 100%;
+}
+
+.table_frontpage, .table_goodspage{
+	width: 70%;
+	border:1px solid #fff;
+	color: #82807e;
+	font-size: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+	
+}
+
+	.table_goodspage{
+		margin-top: 5px;
+	}
+
+.td_frontpage{
+	border:1px solid #fff;
+	padding: 5px;
+}
+
+	.td_frontpage img{
+		width:180px;
+		height: 70px;
+	}
+
+	.orders_func, .ingoodg{
+		color: #0000ff;
+	}
+
+	.orders_func:hover, .ingoodg:hover{
+		color: #ff0000;
+	}
+
+	.ingoodg{
+		font-size: 13px;
+	}
+
+.bottom_update{
+	background:#b7d590;
+	color: #425f3d;
+	font-weight:bold;
+	width:170px;
+	height:30px;
+
+}
+
+	.numer{
+		width: 25px;
+		font-weight: bold;
+		color: #82807e;
+
+	}
+
+
+/*------------------------------------*/
+/*..........CATALOG..................*/
+.name_product_block{
+	background: #eaeddb;
+	height: 30px;
+	margin: 2% auto 0 auto;
+	width: 90%;
+}
+
+	.text_name, .error_name{
+		color: #82807e;
+		font-family: Verdana;
+		font-size: 14px;
+		padding: 4px;
+		margin-left: 10px;
+		float: left;
+	}
+
+		.error_name{
+			color: #ff0000;
+		}
+
+	.text_name i{
+		font-size: 12px;
+	}
+
+	.sort{
+		color: #82807e;
+		font-family: Verdana;
+		font-size: 11px;
+		padding: 4px;
+		float: right;
+		margin-top: 3px;
+		
+	}
+
+	.form_sort{
+		float: right;
+		margin-right: 10px;
+		margin-top: 5px;
+	}
+
+.catalog{
+	display: table;
+	background: #eaeddb;
+	margin: 1% auto 0 auto;
+	width: 90%;
+	height: 355px;
+}
+
+	.cat_tr, .cat_tr_middle, .cat_tr_bottom{
+		display: table-row;
+	}
+
+	.cat_tr_bottom{
+		height: 50px;
+	}
+
+		.cat_td{
+			display: table-cell;
+		
+		}
+
+		.cat_tr_middle{
+			height: 1px;
+		}
+
+		.cat_tr_middle hr{
+			width: 60%;
+			margin: 0 auto;
+		}
+		
+
+		.pr_name{
+			font-size: 10px;
+			margin-top: 1%;
+			margin-left: 20%;
+			margin-bottom: 3%;
+			color: #82807e;
+			float: left;
+		}
+
+		.pr_price{
+			font: bold 10px Arial;
+			float: right;
+			margin-right: 20%;
+			margin-top: 1%;
+			margin-bottom: 3%;
+			
+		}
+
+		.img{
+			width: 60%;
+			margin: 3% auto;
+		}
+
+/*---------------------------------------------------*/
+
+.left, .block-left{
+	float: left;
+}
+
+.right, .block-right{
+	float: right;
+}
+
+.clear, .footer{
+	clear: both;
+}
+
+.text_name{
+
+}
+
+/*------------navigation-----------------*/
+.navigation{
+	background: #eaeddb;
+	color: #82807e;
+	text-align: center;
+	height: 22px;
+	margin: 1% auto 0 auto;
+	width: 100%;
+}
+
+	.pointer{
+		text-decoration: none;
+		font-size: 11px;
+		font-weight: bold;
+		font-family: Arial;
+		color: #82807e;
+	}
+
+	.stnum{
+		text-decoration: none;
+		font-size: 12px;
+		font-weight: bold;
+		font-family: Verdana;
+		color: #82807e;
+	}
+
+		.stnum:hover{
+			text-decoration: underline;
+		}
+
+	.stylepage{
+		text-decoration: none;
+		font-size: 12px;
+		font-weight: bold;
+		font-family: Verdana;
+		color: #000;
+	}
