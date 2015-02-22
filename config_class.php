@@ -2,12 +2,12 @@
 	
 	class Config{
 	
-	public $host = "localhost";
-	public $user = "sembru";
-	public $pass = "18061955";
-	public $db_name = "sembru";
-	public $db_prefix = "sem_";
-	public $address = "http://mytest/sembru/";
+	public $host = "host";
+	public $user = "user";
+	public $pass = "password";
+	public $db_name = "db_name";
+	public $db_prefix = "prefix_";
+	public $address = "http://sembru/";
 	public $dir_tpl = "tpl/";
 
 }
